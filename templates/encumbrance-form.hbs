@@ -1,0 +1,81 @@
+<div class="custom-dnd5e-form-wrapper flexrow">
+    <form class="custom-dnd5e-form flexcol">
+        <div class="scrollable">
+            <h2>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.thresholds"}}</h2>
+            <div class="form-group">
+                <label>{{localize "EFFECT.DND5E.StatusEncumbered"}}</label>
+                <div class="form-fields">
+                    <input id="threshold-encumbered" name="threshold.encumbered.{{#if metric}}metric{{else}}imperial{{/if}}" type="number" value="{{#if metric}}{{threshold.encumbered.metric}}{{else}}{{threshold.encumbered.imperial}}{{/if}}"> 
+                </div>
+            </div>
+            <div class="form-group">
+                <label>{{localize "EFFECT.DND5E.StatusHeavilyEncumbered"}}</label>
+                <div class="form-fields">
+                    <input id="threshold-heavily-encumbered" name="threshold.heavilyEncumbered.{{#if metric}}metric{{else}}imperial{{/if}}" type="number" value="{{#if metric}}{{threshold.heavilyEncumbered.metric}}{{else}}{{threshold.heavilyEncumbered.imperial}}{{/if}}"> 
+                </div>
+            </div>
+            <div class="form-group">
+                <label>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.maximum"}}</label>
+                <div class="form-fields">
+                    <input id="threshold-maximum" name="threshold.maximum.{{#if metric}}metric{{else}}imperial{{/if}}" type="number" value="{{#if metric}}{{threshold.maximum.metric}}{{else}}{{threshold.maximum.imperial}}{{/if}}"> 
+                </div>
+            </div>
+            <h2>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.speedReduction"}}</h2>
+            <div class="form-group">
+                <label>{{localize "EFFECT.DND5E.StatusEncumbered"}}</label>
+                <div class="form-fields">
+                    <input id="speed-reduction-encumbered" name="speedReduction.encumbered.{{#if metric}}m{{else}}ft{{/if}}" type="number" value="{{#if metric}}{{speedReduction.encumbered.m}}{{else}}{{speedReduction.encumbered.ft}}{{/if}}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>{{localize "EFFECT.DND5E.StatusHeavilyEncumbered"}}</label>
+                <div class="form-fields">
+                    <input id="speed-reduction-heavily-encumbered" name="speedReduction.heavilyEncumbered.{{#if metric}}m{{else}}ft{{/if}}" type="number" value="{{#if metric}}{{speedReduction.heavilyEncumbered.m}}{{else}}{{speedReduction.heavilyEncumbered.ft}}{{/if}}"> 
+                </div>
+            </div>
+            <h2>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.currencyPerWeight"}}</h2>
+            <div class="form-group">
+                <label>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.currencyPerWeight"}}</label>
+                <div class="form-fields">
+                    <input id="currency-per-weight" name="currencyPerWeight.{{#if metric}}metric{{else}}imperial{{/if}}" type="number" value="{{#if metric}}{{currencyPerWeight.metric}}{{else}}{{currencyPerWeight.imperial}}{{/if}}"> 
+                </div>
+            </div>
+            <h2>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.vehicleWeightMultiplier"}}</h2>
+            <div class="form-group">
+                <label>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.vehicleWeightMultiplier"}}</label>
+                <div class="form-fields">
+                    <input id="vehicle-weight-multiplier" name="vehicleWeightMultiplier.{{#if metric}}metric{{else}}imperial{{/if}}" type="number" value="{{#if metric}}{{vehicleWeightMultiplier.metric}}{{else}}{{vehicleWeightMultiplier.imperial}}{{/if}}"> 
+                </div>
+            </div>
+            <h2>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.weightModifiers.label"}}</h2>
+            <p>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.weightModifiers.note.1"}}</p>
+            <p class="custom-dnd5e-advice notes">{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.weightModifiers.note.2"}}</p>
+            <div class="form-group">
+                <label>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.equippedItemWeightModifier"}}</label>
+                <div class="form-fields">
+                    <input id="equipped-item-weight-modifier" name="equippedItemWeightModifier" type="number" step="0.01" value="{{equippedItemWeightModifier}}"> 
+                </div>
+            </div>
+            <div class="form-group">
+                <label>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.proficientEquippedItemWeightModifier"}}</label>
+                <div class="form-fields">
+                    <input id="proficient-equipped-item-weight-modifier" name="proficientEquippedItemWeightModifier" type="number" step="0.01" value="{{proficientEquippedItemWeightModifier}}"> 
+                </div>
+            </div>
+            <div class="form-group">
+                <label>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.unequippedItemWeightModifier"}}</label>
+                <div class="form-fields">
+                    <input id="unequipped-item-weight-modifier" name="unequippedItemWeightModifier" type="number" step="0.01" value="{{unequippedItemWeightModifier}}"> 
+                </div>
+            </div>
+        </div>
+        <footer>
+            <button type="button" data-tooltip="{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.reset.tooltip"}}" data-action="reset" class="reset-button">
+                <i class="fas fa-arrow-rotate-left"></i>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.reset.label"}}
+            </button>
+            <button type="submit" data-tooltip="{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.save.tooltip"}}" class="save-button">
+                <i class="fas fa-solid fa-floppy-disk"></i>{{localize "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.save.label"}}
+            </button>
+        </footer>
+    </form>
+</div>

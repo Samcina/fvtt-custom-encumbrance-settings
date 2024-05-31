@@ -1,0 +1,74 @@
+{
+    "CUSTOM_ENCUMBRANCE_SETTINGS.currencyPerWeight": "Currency per Weight",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.equippedItemWeightModifier": "Equipped Item Weight Modifier",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.maximum": "Maximum",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.proficientEquippedItemWeightModifier": "Proficient & Equipped Item Weight Modifier",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.speedReduction": "Speed Reduction",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.thresholds": "Thresholds",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.unequippedItemWeightModifier": "Unequipped Item Weight Modifier",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.vehicleWeightMultiplier": "Vehicle Weight Multiplier",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.weightModifiers.label": "Weight Modifiers",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.weightModifiers.note.1": "These settings do not stack. The lower modifier will be used where multiple modifiers apply to an item.",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.weightModifiers.note.2": "0 will reduce an item's weight by 100%, 0.5 will reduce an item's weight by 50%, 1.25 will increase an item's weight by 25%",
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.dialog.delete.content": "This will also delete the item from all actors. Do you wish to continue?",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.dialog.delete.title": "Delete Item",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.dialog.delete.yes": "Yes",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.dialog.delete.no": "No",
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.dialog.reset.content": "This will reset everything back to the system configuration. Do you wish to continue?",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.dialog.reset.title": "Reset Configuration",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.dialog.reset.yes": "Yes",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.dialog.reset.no": "No",
+    
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.delete.label": "Delete",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.delete.tooltip": "Delete",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.export.label": "Export Data",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.export.tooltip": "Export Data",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.new.label": "Create New",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.new.tooltip": "Create New",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.reset.label": "Reset to Default",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.reset.tooltip": "Reset to Default",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.save.label": "Save and Close",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.button.save.tooltip": "Save and Close",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.checkbox.visible.tooltip": "Visible",
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.counters.triggers.tooltip": "Advanced Options",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.counters.copyProperty.message": "'Property \"{property}\" copied to clipboard.'",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.counters.copyProperty.tooltip": "Copy Property to Clipboard",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.counters.editRole.label": "Editable By",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.counters.editRole.note.1": "Allow users with this role (and above) to edit the counter",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.counters.viewRole.label": "Viewable By",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.counters.viewRole.note.1": "Allow users with this role (and above) to view the counter",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.counters.max.label": "Maximum Value",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.counters.triggers.title": "Advanced Options",
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.currency.title": "Configure Currency",
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.button.exportData.tooltip": "Export Data",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.consoleMessages.label": "Enable Console Messages",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.consoleMessages.note.1": "Enable debugging messages in the browser's console",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.consoleMessages.note.2": "Make sure to disable during normal play",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.exportData.label": "Export Data",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.exportData.note": "Export the module's settings and configuration to file",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.importData.label": "Import Data",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.importData.note.1": "Import the module's settings and configuration from file",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.importData.note.2": "All existing data will be overwritten",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.debug.title": "Debug Settings",
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.encumbrance.title": "Configure Encumbrance",
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.languages.title": "Configure Languages",
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.sheet.showEncumbrance.note": "Show encumbrance on the character sheet",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.form.sheet.showEncumbrance.label": "Show Encumbrance",
+
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.menu.encumbrance.hint": "Configure Encumbrance",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.menu.encumbrance.label": "Configure Encumbrance",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.menu.encumbrance.name": "Configure Encumbrance",
+
+    "CUSTOM_ENCUMBRANCE_SETTINGS.menu.languages.hint": "Configure Languages",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.menu.languages.label": "Configure Languages",
+    "CUSTOM_ENCUMBRANCE_SETTINGS.menu.languages.name": "Configure Languages"
+}

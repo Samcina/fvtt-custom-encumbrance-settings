@@ -1,0 +1,178 @@
+.custom-encumbrance-app .window-content {
+    padding: 0;
+}
+
+.custom-encumbrance-app nav.sheet-tabs {
+    margin: 0;
+}
+
+.custom-encumbrance-form-wrapper {
+    height: 100%;
+    flex-wrap: nowrap;
+}
+
+.custom-encumbrance-form {
+    height: 100%;
+}
+
+.custom-encumbrance-form .scrollable {
+    flex: 1;
+    padding: 0.5rem;
+    overflow: hidden auto;
+}
+
+.custom-encumbrance-form ul {
+    gap: 0.25rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom-encumbrance-form ul ul {
+    flex: 100%;
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+.custom-encumbrance-form li {
+    align-items: center;
+    gap: 0.25rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.custom-encumbrance-form li {
+    cursor: move;
+}
+
+.custom-encumbrance-form li:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+.custom-encumbrance-form li.dragElem {
+    opacity: 0.4;
+}
+
+.custom-encumbrance-form li.over {
+    border-top: 2px solid red;
+}
+
+.custom-encumbrance-col-group {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 0.5rem;
+}
+
+.custom-encumbrance-form .form-group.stacked label {
+    align-items: center;
+    display: flex;
+}
+
+.custom-encumbrance-form .fields {
+    align-items: center;
+    display: flex;
+    gap: 0.5em;
+}
+
+.custom-encumbrance-form .field {
+    align-items: center;
+    display: flex;
+    flex: auto;
+    gap: 0.25em;
+}
+
+.custom-encumbrance-form .field.flex1 {
+    flex: 1;
+}
+
+.custom-encumbrance-form .field.flex2 {
+    flex: 2;
+}
+
+.custom-encumbrance-form .flexa {
+    flex: auto;
+}
+
+.custom-encumbrance-form footer {
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    gap: 0.25em;
+    margin: 1rem;
+}
+
+.custom-encumbrance-list-buttons {
+    display: flex;
+    flex: 0;
+}
+
+.custom-encumbrance-list-button {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.custom-encumbrance-list-button:last-of-type {
+    border-right: none;
+}
+
+.custom-encumbrance-list-button:hover {
+    box-shadow: none;
+}
+
+.custom-encumbrance-list-button:disabled {
+    cursor: unset;
+}
+
+.custom-encumbrance-list-button:disabled > i {
+    color: transparent;
+}
+
+.custom-encumbrance-list-button:hover > i {
+    text-shadow: 0 0 5px var(--color-shadow-primary);
+    outline: none;
+}
+
+.custom-encumbrance-form .custom-encumbrance-list-button:disabled:hover > i {
+    text-shadow: none;
+}
+
+.custom-encumbrance-form .new-button {
+    background: rgba(255, 255, 240, 0.8);
+    border: 1px solid var(--color-border-light-primary);
+}
+
+.custom-encumbrance-form .hidden {
+    display: none;
+}
+
+.custom-encumbrance-item {
+    align-items: center;
+    display: flex;
+    gap: 0.25rem;
+    padding-top: 0.25rem;
+}
+
+.custom-encumbrance-item > i {
+    color: var(--color-text-light-7);
+}
+
+.custom-encumbrance-advice.notes {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid var(--color-border-light-2);
+    border-radius: 3px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 0.25rem;
+    padding: 0.25rem;
+}
+
+.custom-encumbrance-warning.notes {
+    background: rgba(255, 0, 0, 0.2);
+    border: 1px solid var(--color-level-error);
+    border-radius: 3px;
+    color: var(--color-level-error);
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 0.25rem;
+    padding: 0.25rem;
+}
