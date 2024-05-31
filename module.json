@@ -1,7 +1,7 @@
 {
   "id": "custom-encumbrance-settings",
   "title": "Custom Encumbrance Settings",
-  "description": "A Foundry VTT utility to customise the D&D 5e Variant Encumbrance system",
+  "description": "A Foundry VTT utility to customise the D&amp;D 5e Variant Encumbrance system",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -17,7 +17,8 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "languages/en.json",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -26,18 +27,15 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": [
-          {
-            "minimum": "3.2.0",
-            "verified": "3.2.0",
-            "maximum": "3.2.0"
-          }
+          null
         ]
       }
     ],
     "requires": [
       {
         "id": "lib-wrapper",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
@@ -47,5 +45,6 @@
       "url": "https://github.com/Samcina",
       "flags": {}
     }
-  ]
+  ],
+  "url": "https://github.com/Samcina/fvtt-custom-encumbrance-settings"
 }
