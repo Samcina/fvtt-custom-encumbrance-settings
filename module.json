@@ -2,7 +2,7 @@
   "id": "custom-encumbrance-settings",
   "title": "Custom Encumbrance Settings",
   "description": "A Foundry VTT utility to customise the D&amp;D 5e Variant Encumbrance system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11.315",
     "verified": "11.315"
